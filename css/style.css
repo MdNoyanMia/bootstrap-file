@@ -146,42 +146,36 @@ ol {
 .diveabout {
    display: flex;
    justify-content: space-between;
+   position: relative;
 }
-
-.didd {
-   display: flex !important;
-   background: gold;
-   width: 60%;
+.dibar{
+   width: 700px;
    height: 50px;
-
-
+   background: rgb(226, 114, 114);
+   position: absolute;
+   top: 50px;
 }
 
-.gigi {
-   padding: 10px 50px;
-   align-items: center;
+.dibbe{
+   display: flex;
+   justify-content: space-between;
+}
+.gigi{
+   padding: 13px 60px;
 }
 
-.didid {
-
-   padding-left: 150px;
-   padding-top: 10px;
-}
-
-.porerpart {
-   width: 38%;
-   background: #970f66;
-   width: 393px;
-   height: 390px;
-}
-
-
-.didd a {
-   text-align: center;
+.gigi .midd{
+   padding: 0 40px;
    color: black;
-   padding: 0 20px;
-
 }
+.didid {
+padding: 13px  40px ;
+}
+
+.didid .midd1{
+   color: black;
+   padding: 0 10px;
+   }
 
 /* All common css end */
 
